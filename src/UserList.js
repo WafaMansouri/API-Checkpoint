@@ -11,7 +11,7 @@ function UserList() {
       console.log(result);
     };
     fetchData();
-  });
+  },[]);
   return (
     <div>
       <h1>List of users</h1>
